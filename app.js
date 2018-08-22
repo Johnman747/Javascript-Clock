@@ -13,3 +13,4 @@ function moveHands(){
     setTimeout(moveHands, 1000); 
   }
 }
+window.onload = moveHands;
